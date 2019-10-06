@@ -1,4 +1,12 @@
-list1 = [10,15,4,23,0]
+# list1 = [10,15,4,23,0]
+list1 =[]
+print("Enter size of the list:")
+size=int(input())
+
+for i in range(size):
+    print("Enter the", i+1, "st Element:")
+    item = input()
+    list1.append(item)
 
 print("Input List:", list1)
 
